@@ -1,0 +1,29 @@
+morpho:
+  old_version:
+    cog:
+      origin: data/morpho/old_version/cog/morphoTensorCoG.500.aparc.annot.mat
+      origin_outlier_mask: data/morpho/old_version/cog/origin_outlier_mask.mat
+      lrtc_tensor: data/morpho/old_version/cog/lrtc_tensor.mat
+      stdc_tensor: data/morpho/old_version/cog/stdc_tensor.mat
+    gig:
+      origin: data/morpho/old_version/gig/morphoTensorGiG.500.aparc.annot.mat
+      origin_outlier_mask: data/morpho/old_version/gig/origin_outlier_mask.mat
+      lrtc_tensor: data/morpho/old_version/gig/lrtc_tensor.mat
+      stdc_tensor: data/morpho/old_version/gig/stdc_tensor.mat
+  new_version:
+    cog:
+      origin: data/morpho/new_version/cog/morphoTensorCoG.500.aparc.mat
+      origin_outlier_mask: data/morpho/new_version/cog/origin_outlier_mask.mat
+      lrtc_tensor: data/morpho/new_version/cog/lrtc_tensor.mat
+      stdc_tensor: data/morpho/new_version/cog/stdc_tensor.mat
+    gig:
+      origin: data/morpho/new_version/gig/morphoTensorGiG.500.aparc.mat
+      origin_outlier_mask: data/morpho/new_version/gig/origin_outlier_mask.mat
+      lrtc_tensor: data/morpho/new_version/gig/lrtc_tensor.mat
+      stdc_tensor: data/morpho/new_version/gig/stdc_tensor.mat
+logger_level: DEBUG
+matlab_level: true
+version: 1287
+hyperpar:
+  random_state: 42
+  numpy_order: F

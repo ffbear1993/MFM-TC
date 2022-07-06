@@ -14,7 +14,7 @@ conda create -n ENV_NAME python=3.6
 
 **NOTE**: The LRTC and STDC method (please check /package/TensorCode) are implemented and tested in MATLAB2018b. To make them available for PYTHON environment, I have generated python packages for them (please check /package/LRTC and /package/STDC). If you want to package them for yourself, you can check the link for more help (https://www.mathworks.com/help/compiler_sdk/gs/create-a-python-application-with-matlab-code.html)
 
-Next, we need to install MATLAB engine for PYTHON to make the MATLAB code can be executed in python environment. The following instructions are suitable for MATLAB2018b, if your MATLAB version is higher, please check the MATLAB document for more help (https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
+Next, we need to install the MATLAB Engine for PYTHON to allow MATLAB code to run in the python environment. The following instructions are suitable for MATLAB2018b, if your MATLAB version is higher, please check the MATLAB document for more help (https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
 
 ```
 conda activate ENV_NAME
